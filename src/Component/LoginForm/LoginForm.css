@@ -1,0 +1,108 @@
+/* Estilo general del contenedor principal */
+.wrapper {
+    width: 100%; /* El contenedor ocupa el 100% del ancho disponible */
+    background: transparent; /* Fondo transparente */
+    border: 2px solid rgba(255, 255, 255, .2); /* Borde semitransparente blanco */
+    box-shadow: 0 0 10px rgba(255, 255, 255, .2); /* Sombra suave alrededor del contenedor */
+    backdrop-filter: blur(30px); /* Efecto de desenfoque en el fondo */
+    color: #fff; /* Color de texto blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 30px 40px; /* Espaciado interior */
+}
+
+/* Estilo del título */
+.wrapper h1{
+    font-size: 36px; /* Tamaño de fuente grande */
+    text-align: center; /* Alineación centrada */
+}
+
+/* Estilo de la caja de entrada */
+.wrapper .input-box {
+    position: relative; /* Posicionamiento relativo para contener elementos posicionados absolutamente */
+    width: 100%; /* Ancho completo */
+    height: 50px; /* Altura fija */
+    margin: 30px 0; /* Espaciado superior e inferior */
+}
+
+/* Estilo del campo de entrada */
+.input-box input {
+    width: 100%; /* Ancho completo */
+    height: 100%; /* Altura completa */
+    background: transparent; /* Fondo transparente */
+    border: 2px solid rgba(255, 255, 255, .2); /* Borde semitransparente */
+    border-radius: 40px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente */
+    color: #fff; /* Color de texto blanco */
+    padding: 20px 45px 20px 20px; /* Espaciado interior */
+}
+
+/* Estilo del placeholder en el campo de entrada */
+.input-box input::placeholder {
+    color: #fff; /* Color blanco para el placeholder */
+}
+
+/* Estilo del icono en la caja de entrada */
+.input-box .icon {
+    position: absolute; /* Posicionamiento absoluto */
+    right: 20px; /* A 20px del borde derecho */
+    top: 50%; /* Centrado verticalmente */
+    transform: translateY(-50%); /* Alineación vertical precisa */
+    font-size: 16px; /* Tamaño de fuente */
+}
+
+/* Estilo para el contenedor de recordar contraseña y olvido de contraseña */
+.wrapper .remember-forgot {
+    display: flex; /* Elementos alineados en fila */
+    justify-content: space-between; /* Espaciado entre elementos */
+    font-size: 14.5px; /* Tamaño de fuente */
+    margin: -15px 0 15px; /* Margen superior negativo para ajuste y margen inferior */
+}
+
+/* Estilo del checkbox y el texto */
+.remember-forgot label input {
+    accent-color: #fff; /* Color del acento del checkbox */
+    margin-right: 4px; /* Espaciado derecho */
+}
+
+/* Estilo de los enlaces */
+.remember-forgot a {
+    color: #fff; /* Color de texto blanco */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline; /* Subrayado al pasar el cursor */
+}
+
+/* Estilo del botón */
+.wrapper button {
+    width: 100%; /* Ancho completo */
+    height: 45px; /* Altura fija */
+    background: #fff; /* Fondo blanco */
+    border: none; /* Sin borde */
+    outline: none; /* Sin contorno */
+    border-radius: 40px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1); /* Sombra suave */
+    cursor: pointer; /* Cursor de mano */
+    font-size: 16px; /* Tamaño de fuente */
+    color: #333; /* Color de texto gris oscuro */
+    font-weight: 700; /* Fuente en negrita */
+}
+
+/* Estilo del enlace de registro */
+.wrapper .register-link {
+    font-size: 14.5px; /* Tamaño de fuente */
+    text-align: center; /* Alineación centrada */
+    margin-top: 20px; /* Margen superior */
+}
+
+/* Estilo del texto y enlace dentro de la sección de registro */
+.register-link p a {
+    color: #fff; /* Color de texto blanco */
+    text-decoration: none; /* Sin subrayado */
+    font-weight: 600; /* Fuente semi-negrita */
+}
+
+.register-link p a:hover {
+    text-decoration: underline; /* Subrayado al pasar el cursor */
+}

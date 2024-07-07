@@ -1,0 +1,28 @@
+/* Aplica estilo a todos los elementos de la página */
+* {
+  margin: 0; /* Elimina el margen por defecto de todos los elementos */
+  padding: 0; /* Elimina el relleno por defecto de todos los elementos */
+  box-sizing: border-box; /* Hace que el padding y border se incluyan en el ancho y alto total de los elementos */
+}
+
+/* Aplica estilo al cuerpo de la página */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; /* Establece una lista de fuentes para el texto del cuerpo */
+  -webkit-font-smoothing: antialiased; /* Suaviza el texto para navegadores WebKit */
+  -moz-osx-font-smoothing: grayscale; /* Suaviza el texto para navegadores Mozilla en OS X */
+  display: flex; /* Utiliza un diseño de caja flexible */
+  justify-content: center; /* Centra horizontalmente los elementos hijos */
+  align-items: center; /* Centra verticalmente los elementos hijos */
+  min-height: 100vh; /* Establece una altura mínima de 100% del viewport */
+  background: url('./Component/Assets/logo\ slogan.pgn') no-repeat; /* Establece una imagen de fondo sin repetición */
+  background-size: cover; /* Ajusta la imagen de fondo para cubrir completamente el área del cuerpo */
+  background-position: center; /* Centra la posición de la imagen de fondo */
+}
+
+/* Aplica estilo al texto dentro de elementos <code> */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace; /* Establece una lista de fuentes de monoespacio para el texto en <code> */
+}

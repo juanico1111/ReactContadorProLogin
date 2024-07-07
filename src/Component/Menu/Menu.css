@@ -1,0 +1,50 @@
+/* Estilo general del contenedor principal del menú */
+.menu-wrapper {
+    width: 100%;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    box-shadow: 0 0 10px rgba(255, 255, 255, .2);
+    backdrop-filter: blur(30px);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    text-align: center; /* Alineación centrada del texto */
+}
+
+/* Estilo del título del menú */
+.menu-wrapper h1 {
+    font-size: 36px;
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+/* Estilo de los elementos del menú */
+.menu-item {
+    display: flex; /* Elementos alineados en fila */
+    align-items: center; /* Alineación vertical centrada */
+    margin: 20px 0; /* Espaciado superior e inferior */
+}
+
+/* Estilo de los íconos en los elementos del menú */
+.menu-item .icon {
+    font-size: 24px; /* Tamaño del ícono */
+    margin-right: 10px; /* Espaciado derecho */
+}
+
+/* Estilo de los botones del menú */
+.menu-item button {
+    background: #fff; /* Fondo blanco */
+    border: none; /* Sin borde */
+    outline: none; /* Sin contorno */
+    border-radius: 40px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1); /* Sombra suave */
+    cursor: pointer; /* Cursor de mano */
+    font-size: 16px; /* Tamaño de fuente */
+    color: #333; /* Color de texto gris oscuro */
+    font-weight: 700; /* Fuente en negrita */
+    padding: 10px 20px; /* Espaciado interior */
+}
+
+/* Efecto hover para los botones del menú */
+.menu-item button:hover {
+    background: rgba(255, 255, 255, .8); /* Fondo semitransparente */
+}
